@@ -1,7 +1,5 @@
 {
     "name": "josh/connect-four",
-    "description": "This package contains the files need to play the game Connect Four.",
-    "type": "project",
     "authors": [
         {
             "name": "jdspiral",
@@ -10,9 +8,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Game\\": "src/"
+            "Game\\": "src/Game"
         }
     },
-
     "require": {}
 }
