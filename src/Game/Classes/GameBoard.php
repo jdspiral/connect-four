@@ -73,7 +73,7 @@ class GameBoard {
 
             for($j = 0; $j < $this->getColumns() ; $j ++ ){
 
-                echo '<td>' . $board_dimensions[$i][$j] . '</td>';
+                echo '<td data-row=' . $i . ' data-column=' . $j . '>' . $board_dimensions[$i][$j] . '</td>';
 
             }
 
