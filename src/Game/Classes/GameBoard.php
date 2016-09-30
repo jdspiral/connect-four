@@ -63,9 +63,9 @@ class GameBoard {
     public function displayBoard()
     {
 
-        print '<table>';
+        echo '<table>';
 
-       $board_dimensions = $this->getBoard();
+        $board_dimensions = $this->getBoard();
 
         for($i = 0; $i < $this->getRows() ; $i ++ ){
 
@@ -97,7 +97,9 @@ class GameBoard {
     }
 
     /**
-     * Set the board dimensions
+     * Set the board dimension
+     *
+     * @param $board_dimensions
      */
     protected function setBoard( $board_dimensions )
     {
